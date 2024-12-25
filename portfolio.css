@@ -286,7 +286,15 @@
             opacity: 1;
             transform: translateY(0);
         }
-        
+
+        /* .project-image{
+            background-image: url('front.jpg');
+            position: center;
+            background-size: cover;
+            background-position: center;
+
+        } */
+
         /* Contact Section */
         .contact-section {
             background-image: url('sandalbg.jpg');
@@ -402,3 +410,38 @@
             color: white;
             font-size: 20px;
         }
+
+        
+        /* Keyframes */
+        @keyframes slideUpFade {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .projects {
+                padding: 4rem 1rem;
+            }
+            
+            .project-card {
+                margin-bottom: 2rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+            .social-link {
+                display: block;
+            }
+
+            .nav-mobile-menu {
+                display: block;
+            }
+        }
+    
