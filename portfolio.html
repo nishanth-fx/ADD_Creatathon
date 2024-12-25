@@ -8,33 +8,47 @@
     
 </head>
 <body class="front-page">
-    <!-- <div class="cursor"></div> -->
-
+    <div class="cursor"></div>
     <nav class="nav">
         <div class="nav-content">
-            <a href="#" class="nav-logo">PORTFOLIO</a>
-            <div class="social-links">
-                <a href="#" class="social-link">LinkedIn</a>
-                <a href="#" class="social-link">Twitter</a>
-                <a href="#" class="social-link">Instagram</a>
-                <a href="#" class="social-link">Facebook</a>
+            <img class="nav-logo" src="N.jpg" alt="loading">
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact-section" class="nav-link">Contact</a>
             </div>
         </div>
     </nav>
-
-
-    <section class="front">
+      
+    <section class="front" id="home">
         <div class="front-content">
             <div class="project-image"></div>
-            <h1>Creative<br>Developer</h1>
-            <p>Crafting digital experiences that blend innovation with functionality</p>
+            <!-- <h1>Creative<br>Developer</h1>
+            <p>Crafting digital experiences that blend innovation with functionality</p> -->
         </div>
     </section>
 
-    <section class="projects">
+    <section id="about" class="about-section" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>
+                I am a creative and detail-oriented web developer with a strong background in coding, design, and problem-solving. 
+                With expertise in HTML, CSS, JavaScript, and back-end technologies, I build clean and efficient websites. 
+                My skills also extend to mobile app development and database management.
+                And I am passionate to solve Data Structures and algorithms.
+            </p>
+            <p>
+                When I'm not coding, I enjoy learning new technologies and participating in coding challenges.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
         <div class="projects-grid">
             <article class="project-card">
-                <img src="image1.jpg" alt="Project 1" class="project1-image">
+                <img src="project1.jpg" alt="Project 1" class="project1-image">
                 <div class="project-content">
                     <h3 class="project-title">Digital Experience</h3>
                     <p class="project-description">An immersive web platform that pushes the boundaries of online interaction.</p>
@@ -43,16 +57,16 @@
             </article>
 
             <article class="project-card">
-                <img src="image2.jpg" alt="Project 2" class="project2-image">
+                <img src="project2.jpg" alt="Project 2" class="project2-image">
                 <div class="project-content">
                     <h3 class="project-title">E-Commerce Revolution</h3>
-                    <p class="project-description">A next-generation shopping experience with seamless animations.</p>
+                    <p class="project-d escription">A next-generation shopping experience with seamless animations.</p>
                     <a href="#" class="project-link">View Project</a>
                 </div>
             </article>
 
             <article class="project-card">
-                <img src="image3.jpg" alt="Project 3" class="project3-image">
+                <img src="project3.jpg" alt="Project 3" class="project3-image">
                 <div class="project-content">
                     <h3 class="project-title">Interactive Platform</h3>
                     <p class="project-description">Engaging users through intuitive design and smooth interactions.</p>
@@ -61,5 +75,6 @@
             </article>
         </div>
     </section>
+
 </body>
 </html>
