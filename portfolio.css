@@ -124,15 +124,7 @@
             transform: translateX(100%);
         }
 
-        /* front Section */
-        /* .front {
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            overflow: hidden;
-        } */
+       
 
         .front-content {
             text-align: center;
@@ -208,12 +200,6 @@
         .project-card::before {
             content: '';
             position: absolute;
-            /* inset: 0; 
-             background: linear-gradient(
-                45deg,
-                transparent 0%,
-                rgba(var(--accent), 0.1) 100%
-            );  */
             opacity: 0;
             transition: opacity 0.5s ease;
         }
@@ -294,13 +280,7 @@
             transform: translateY(0);
         }
 
-        /* .project-image{
-            background-image: url('front.jpg');
-            position: center;
-            background-size: cover;
-            background-position: center;
-
-        } */
+      
 
         /* Certifications Section */
         .certifications {
@@ -396,11 +376,6 @@
             font-size: 2em;
             margin-bottom: 10px;
         }
-
-        .contact-form {
-            margin-bottom: 30px;
-        }
-
         .form-group {
             margin-bottom: 20px;
         }
@@ -425,6 +400,12 @@
             resize: vertical;
         }
 
+
+        .contact-form {
+            margin-bottom: 30px;
+        }
+
+        
         .submit-btn {
             background: #007bff;
             color: white;
