@@ -303,11 +303,6 @@
             font-size: 2em;
             margin-bottom: 10px;
         }
-
-        .contact-form {
-            margin-bottom: 30px;
-        }
-
         .form-group {
             margin-bottom: 20px;
         }
@@ -332,6 +327,12 @@
             resize: vertical;
         }
 
+
+        .contact-form {
+            margin-bottom: 30px;
+        }
+
+        
         .submit-btn {
             background: #007bff;
             color: white;
