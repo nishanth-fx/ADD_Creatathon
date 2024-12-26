@@ -180,9 +180,16 @@
             max-width: 1400px;
             margin: 0 auto;
         }
-        .project1-image, .project2-image, .project3-image {
+        .project1-image, .project2-image {
             width: 100%;
-            height: 400px;
+            height: 270px;
+            padding: 30px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .project3-image{
+            width: 100%;
+            height: 300px;
             padding: 30px;
             object-fit: cover;
             transition: transform 0.5s ease;
@@ -221,7 +228,7 @@
 
         .project-image {
             width: 100%;
-            height: 250px;
+            height: 50px;
             object-fit: cover;
             transition: transform 0.5s ease;
         }
@@ -294,6 +301,72 @@
             background-position: center;
 
         } */
+
+        /* Certifications Section */
+        .certifications {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+          }
+      
+          .cert-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+          }
+      
+          .cert-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            transition: transform 0.2s;
+            text-decoration: none;
+            display: block;
+          }
+      
+          .cert-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+          }
+      
+          .cert-icon {
+            width: 60px;
+            height: 60px;
+            background: #f0f0f0;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+          }
+      
+          .cert-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #333;
+          }
+      
+          .cert-issuer {
+            color: #666;
+            font-size: 0.9rem;
+          }
+      
+          .cert-date {
+            color: #888;
+            font-size: 0.8rem;
+            margin-top: 10px;
+          }
+      
+          .verify-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: #007bff;
+            font-size: 0.9rem;
+            text-decoration: underline;
+          }
 
         /* Contact Section */
         .contact-section {
