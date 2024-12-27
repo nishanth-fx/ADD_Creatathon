@@ -174,11 +174,7 @@
         }
         .project1-image, .project2-image {
             width: 100%;
-<<<<<<< HEAD
             height: 250px;
-=======
-            height: 240px;
->>>>>>> e06c5caecde4cd44102964181fe1c73c6e81f844
             padding: 30px;
             object-fit: cover;
             transition: transform 0.5s ease;
